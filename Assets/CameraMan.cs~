@@ -1,0 +1,39 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraMan : MonoBehaviour {
+
+    public float climbSpeed = 4;
+    public float accVal = 1;
+    public float deltaAngle = 1.0f;
+    private float dc_inc = 0.1f;
+    public float dc_offset = 0.0f;
+    public bool open_loop = false;
+    public bool valve = false;
+    //private Vector3 vel = new Vector3(0.0f,0.0f,0.0f);
+    private float vel = 0.0f;
+
+    // Use this for initialization
+    void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+        transform.position += transform.forward* vel * Time.deltaTime;
+        if (Input.GetKey(KeyCode.UpArrow)) { vel += accVal * Time.deltaTime; }
+        if (Input.GetKey(KeyCode.DownArrow)) { vel -= accVal * Time.deltaTime; }
+        if (Input.GetKey(KeyCode.Q)) { transform.position += transform.up * climbSpeed * Time.deltaTime; }
+        if (Input.GetKey(KeyCode.A)) { transform.position -= transform.up * climbSpeed * Time.deltaTime; }
+        if (Input.GetKey(KeyCode.D)) { vel = 0.0f; }
+        if (Input.GetKey(KeyCode.LeftArrow)) {transform.rotation = transform.rotation * Quaternion.Euler(new Vector3(0, -deltaAngle, 0));}
+        if (Input.GetKey(KeyCode.RightArrow)) { transform.rotation = transform.rotation * Quaternion.Euler(new Vector3(0, deltaAngle, 0)); }
+        if(Input.GetKey(KeyCode.K)) { dc_offset += dc_inc; }
+        if (Input.GetKey(KeyCode.J)) { dc_offset -= dc_inc; }
+        if (Input.GetKey(KeyCode.O)) { open_loop = true; }
+        if (Input.GetKey(KeyCode.P)) { open_loop = false; }
+        if (Input.GetKey(KeyCode.Z)) { valve = false; }
+        if (Input.GetKey(KeyCode.X)) { valve = true; }
+    }
+}

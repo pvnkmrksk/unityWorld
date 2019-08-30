@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 95a6c432e65c34cffa3574cc7dd14e08
+timeCreated: 1527919485
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: apple1
+    100002: apple2
+    100004: apple3
+    100006: appleE
+    100008: appleE_MeshPart0
+    100010: appleE_MeshPart1
+    100012: //RootNode
+    100014: branches
+    100016: branches_MeshPart0
+    100018: branches_MeshPart1
+    100020: branches_MeshPart2
+    100022: emitter
+    100024: leaves
+    100026: trunk
+    400000: apple1
+    400002: apple2
+    400004: apple3
+    400006: appleE
+    400008: appleE_MeshPart0
+    400010: appleE_MeshPart1
+    400012: //RootNode
+    400014: branches
+    400016: branches_MeshPart0
+    400018: branches_MeshPart1
+    400020: branches_MeshPart2
+    400022: emitter
+    400024: leaves
+    400026: trunk
+    2100000: apple_trunk__TexturesCom_WoodRough0048_1_S_jpg_002
+    2100002: apple__apple3_png_002
+    2100004: branches__bark_diff_png
+    2100006: bark__bark_diff_png
+    2100008: leaves__appleleaf_diff_png
+    2300000: apple1
+    2300002: apple2
+    2300004: apple3
+    2300006: appleE_MeshPart0
+    2300008: appleE_MeshPart1
+    2300010: branches_MeshPart0
+    2300012: branches_MeshPart1
+    2300014: branches_MeshPart2
+    2300016: emitter
+    2300018: leaves
+    2300020: trunk
+    3300000: apple1
+    3300002: apple2
+    3300004: apple3
+    3300006: appleE_MeshPart0
+    3300008: appleE_MeshPart1
+    3300010: branches_MeshPart0
+    3300012: branches_MeshPart1
+    3300014: branches_MeshPart2
+    3300016: emitter
+    3300018: leaves
+    3300020: trunk
+    4300000: apple1
+    4300002: apple3
+    4300004: apple2
+    4300006: emitter
+    4300008: branches_MeshPart0
+    4300010: branches_MeshPart1
+    4300012: branches_MeshPart2
+    4300014: trunk
+    4300016: appleE_MeshPart0
+    4300018: appleE_MeshPart1
+    4300020: leaves
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

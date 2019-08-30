@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ddaec34-9513-47ac-acff-eb8343ba21e3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HelloWorld.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/HelloWorld.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <marker date="1528454369890" expanded="true" signature="7:91" ph="..." />
+                <marker date="1528454369890" expanded="true" signature="93:252" ph="/* commands on ROS system: ... */" />
+                <marker date="1528454369890" expanded="true" signature="297:7072" ph="{...}" />
+                <marker date="1528454369890" expanded="true" signature="686:1177" ph="/* Try setting UseShellExecute to true or try running your shell directly and passing the script as the first arg ... */" />
+                <marker date="1528454369890" expanded="true" signature="1220:4607" ph="{...}" />
+                <marker date="1528454369890" expanded="true" signature="2050:4149" ph="/* System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo(); ... */" />
+                <marker date="1528454369890" expanded="true" signature="4634:6713" ph="{...}" />
+                <marker date="1528454369890" expanded="true" signature="5889:5933" ph="/* slip=0f; ... */" />
+                <marker date="1528454369890" expanded="true" signature="5975:6066" ph="/* packetFrequency=0f; ... */" />
+                <marker date="1528454369890" expanded="true" signature="6122:6186" ph="/* speedControl=0; ... */" />
+                <marker date="1528454369890" expanded="true" signature="6222:6350" ph="/* servoAngle=0; ... */" />
+                <marker date="1528454369890" expanded="true" signature="6386:6616" ph="/* isFlying=0; ... */" />
+                <marker date="1528454369890" expanded="true" signature="6766:7070" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/test.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="CameraMan.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CameraMan.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hfov.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/hfov.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <folding>
+                <marker date="1527891298906" expanded="true" signature="6:78" ph="..." />
+                <marker date="1527891298906" expanded="true" signature="115:329" ph="{...}" />
+                <marker date="1527891298906" expanded="true" signature="168:327" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/MessageHandling/MessageEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/MessageHandling/MessageProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/Publisher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/UnityTimePublisher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FPSDisplay.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HelloWorld.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DisplayScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/RosConnector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/Subscriber.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/ClockTimePublisher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/test.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/hfov.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraMan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/UrdfComponents/UrdfPatcher.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/DisplayScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/hfov.cs" />
+        <option value="$PROJECT_DIR$/Assets/RosSharp/Scripts/UrdfComponents/UrdfPatcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/FPSDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/Publisher.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraMan.cs" />
+        <option value="$PROJECT_DIR$/Assets/HelloWorld.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="4320" />
+    <option name="y" value="-4" />
+    <option name="width" value="1560" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Rhagoletis1" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Rhagoletis1" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/src.git/ros-sharp/RosBridgeClient/RosBridge.sln" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ddaec34-9513-47ac-acff-eb8343ba21e3" name="Default" comment="" />
+      <created>1527891092227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527891092227</updated>
+      <workItem from="1527891094791" duration="1164000" />
+      <workItem from="1527892288855" duration="24548000" />
+      <workItem from="1528450125583" duration="3322000" />
+      <workItem from="1528705639453" duration="632000" />
+      <workItem from="1528969405379" duration="1840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31506000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4320" y="-4" width="1560" height="1084" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006605" side_tool="true" weight="0.3225131" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" sideWeight="0.4993395" weight="0.32984293" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993395" visible="true" weight="0.3225131" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23778072" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23579545" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3322546" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/HelloWorld.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <marker date="1528454369890" expanded="true" signature="7:91" ph="..." />
+            <marker date="1528454369890" expanded="true" signature="93:252" ph="/* commands on ROS system: ... */" />
+            <marker date="1528454369890" expanded="true" signature="297:7072" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="686:1177" ph="/* Try setting UseShellExecute to true or try running your shell directly and passing the script as the first arg ... */" />
+            <marker date="1528454369890" expanded="true" signature="1220:4607" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="2050:4149" ph="/* System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo(); ... */" />
+            <marker date="1528454369890" expanded="true" signature="4634:6713" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="5889:5933" ph="/* slip=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="5975:6066" ph="/* packetFrequency=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6122:6186" ph="/* speedControl=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6222:6350" ph="/* servoAngle=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6386:6616" ph="/* isFlying=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6766:7070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CameraMan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/hfov.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1527891298906" expanded="true" signature="6:78" ph="..." />
+            <marker date="1527891298906" expanded="true" signature="115:329" ph="{...}" />
+            <marker date="1527891298906" expanded="true" signature="168:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HelloWorld.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding>
+            <marker date="1528454369890" expanded="true" signature="7:91" ph="..." />
+            <marker date="1528454369890" expanded="true" signature="93:252" ph="/* commands on ROS system: ... */" />
+            <marker date="1528454369890" expanded="true" signature="297:7072" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="686:1177" ph="/* Try setting UseShellExecute to true or try running your shell directly and passing the script as the first arg ... */" />
+            <marker date="1528454369890" expanded="true" signature="1220:4607" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="2050:4149" ph="/* System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo(); ... */" />
+            <marker date="1528454369890" expanded="true" signature="4634:6713" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="5889:5933" ph="/* slip=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="5975:6066" ph="/* packetFrequency=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6122:6186" ph="/* speedControl=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6222:6350" ph="/* servoAngle=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6386:6616" ph="/* isFlying=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6766:7070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CameraMan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/hfov.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1527891298906" expanded="true" signature="6:78" ph="..." />
+            <marker date="1527891298906" expanded="true" signature="115:329" ph="{...}" />
+            <marker date="1527891298906" expanded="true" signature="168:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HelloWorld.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <marker date="1528454369890" expanded="true" signature="7:91" ph="..." />
+            <marker date="1528454369890" expanded="true" signature="93:252" ph="/* commands on ROS system: ... */" />
+            <marker date="1528454369890" expanded="true" signature="297:7072" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="686:1177" ph="/* Try setting UseShellExecute to true or try running your shell directly and passing the script as the first arg ... */" />
+            <marker date="1528454369890" expanded="true" signature="1220:4607" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="2050:4149" ph="/* System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo(); ... */" />
+            <marker date="1528454369890" expanded="true" signature="4634:6713" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="5889:5933" ph="/* slip=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="5975:6066" ph="/* packetFrequency=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6122:6186" ph="/* speedControl=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6222:6350" ph="/* servoAngle=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6386:6616" ph="/* isFlying=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6766:7070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CameraMan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/hfov.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1527891298906" expanded="true" signature="6:78" ph="..." />
+            <marker date="1527891298906" expanded="true" signature="115:329" ph="{...}" />
+            <marker date="1527891298906" expanded="true" signature="168:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HelloWorld.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <marker date="1528454369890" expanded="true" signature="7:91" ph="..." />
+            <marker date="1528454369890" expanded="true" signature="93:252" ph="/* commands on ROS system: ... */" />
+            <marker date="1528454369890" expanded="true" signature="297:7072" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="686:1177" ph="/* Try setting UseShellExecute to true or try running your shell directly and passing the script as the first arg ... */" />
+            <marker date="1528454369890" expanded="true" signature="1220:4607" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="2050:4149" ph="/* System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo(); ... */" />
+            <marker date="1528454369890" expanded="true" signature="4634:6713" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="5889:5933" ph="/* slip=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="5975:6066" ph="/* packetFrequency=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6122:6186" ph="/* speedControl=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6222:6350" ph="/* servoAngle=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6386:6616" ph="/* isFlying=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6766:7070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CameraMan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DisplayScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/hfov.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1527891298906" expanded="true" signature="6:78" ph="..." />
+            <marker date="1527891298906" expanded="true" signature="115:329" ph="{...}" />
+            <marker date="1527891298906" expanded="true" signature="168:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/RosConnector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/UnityTimePublisher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/MessageHandling/MessageEventArgs.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/MessageHandling/MessageProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/Subscriber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/UrdfComponents/UrdfPatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/ClockTimePublisher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FPSDisplay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DisplayScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/hfov.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1527891298906" expanded="true" signature="6:78" ph="..." />
+            <marker date="1527891298906" expanded="true" signature="115:329" ph="{...}" />
+            <marker date="1527891298906" expanded="true" signature="168:327" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RosSharp/Scripts/RosCommuncation/Publisher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CameraMan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/test.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HelloWorld.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <marker date="1528454369890" expanded="true" signature="7:91" ph="..." />
+            <marker date="1528454369890" expanded="true" signature="93:252" ph="/* commands on ROS system: ... */" />
+            <marker date="1528454369890" expanded="true" signature="297:7072" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="686:1177" ph="/* Try setting UseShellExecute to true or try running your shell directly and passing the script as the first arg ... */" />
+            <marker date="1528454369890" expanded="true" signature="1220:4607" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="2050:4149" ph="/* System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo(); ... */" />
+            <marker date="1528454369890" expanded="true" signature="4634:6713" ph="{...}" />
+            <marker date="1528454369890" expanded="true" signature="5889:5933" ph="/* slip=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="5975:6066" ph="/* packetFrequency=0f; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6122:6186" ph="/* speedControl=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6222:6350" ph="/* servoAngle=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6386:6616" ph="/* isFlying=0; ... */" />
+            <marker date="1528454369890" expanded="true" signature="6766:7070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
