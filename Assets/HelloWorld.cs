@@ -3,7 +3,7 @@ using RosSharp.RosBridgeClient;
 using UnityEngine;
 using System.Collections;
 
-// commands on ROS system:
+// run these commands on ROS system:
 // roslaunch rosbridge_server rosbridge_websocket.launch
 // rostopic echo /talker
 // rostopic pub /listener std_msgs/String "World!"
@@ -23,78 +23,34 @@ public class HelloWorld: MonoBehaviour
     private String publication_id;
     private RosSocket rosSocket ;
 
-        
+
+
+	public void subProcessor (string command, string argss)
+	{
+
+            try
+            {
+            	System.Diagnostics.ProcessStartInfo procInfo = new System.Diagnostics.ProcessStartInfo();
+            	procInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
+            	procInfo.FileName = command; // 'sh' for bash
+            	procInfo.Arguments = argss; // The Script name
+            	System.Diagnostics.Process p= System.Diagnostics.Process.Start(procInfo); // Start that process
+				//return p;
+
+            }
+            catch (Exception e)
+            {
+                //Console.WriteLine(e.Message);
+		        Debug.Log(e.Message);
+
+			}
+	}
+	
+
+	//public void init
     public void Start()
     {
-            string command = "rqt";
-		    string argss = "";
-        
-            //string argss = "/home/rhagoletis/test.py";
-            //string verb = " ";
-
-            System.Diagnostics.ProcessStartInfo procInfo = new System.Diagnostics.ProcessStartInfo();
-            procInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
-            //procInfo.UseShellExecute = false;
-            procInfo.FileName = command; // 'sh' for bash
-            procInfo.Arguments = argss; // The Script name
-            //procInfo.Verb = verb; // ------------
-            //procInfo.RedirectStandardOutput = false;
-            System.Diagnostics.Process p= System.Diagnostics.Process.Start(procInfo); // Start that process.
-            //string strOutput = p.StandardOutput.ReadToEnd(); 
-            //p.WaitForExit();
-            //Debug.Log(strOutput);
-
-//
-//            System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo();
-//            
-//        
-////        ProcessStartInfo psi = new ProcessStartInfo(); 
-//        psi.FileName = "/home/rhagoletis/test.sh";
-////        psi.FileName = Application.dataPath+"/test.sh";
-//        psi.UseShellExecute = false; 
-//        psi.RedirectStandardOutput = true;
-////        psi.Arguments = "arg1 arg2 arg3";
-//
-////psi.Arguments = "test"; 
-//        System.Diagnostics.Process p = System.Diagnostics.Process.Start(psi); 
-//        string strOutput = p.StandardOutput.ReadToEnd(); 
-//        p.WaitForExit(); 
-//        UnityEngine.Debug.Log(strOutput);
-////
-////            
-////        System.Diagnostics.Process.Start("rqt_plot");
-//        System.Diagnostics.Process p = new System.Diagnostics.Process();
-//        p.StartInfo.FileName = "jupyter";
-////        p.StartInfo.FileName = "/home/rhagoletis/catkin/devel/lib/python2.7/dist-packages/python";
-////        p.StartInfo.Arguments = "/home/rhagoletis/catkin/src/World/GUI_caller.py";
-//        p.StartInfo.Arguments = "notebook";    
-//        p.StartInfo.RedirectStandardError=false;
-//        p.StartInfo.RedirectStandardOutput = false;
-//        p.StartInfo.CreateNoWindow = true;
-//
-////        p.StartInfo.WorkingDirectory = "/home/rhagoletis/"; 
-////        p.StartInfo.CreateNoWindow = false;
-//        p.StartInfo.UseShellExecute = true;
-//        p.Start();     
-////        p.WaitForExit();
-//
-//
-////        System.Diagnostics.Process info = new System.Diagnostics.Process();
-////        info.StartInfo.Filename = "python";
-////        info.StartInfo.Arguments = "~/catkin/src/World/GUI_caller.py";
-////     
-////        //use to create no window when running cmd script
-////        info.StartInfo.UseShellExecute = true;
-////        info.StartInfo.CreateNoWindow = true;
-////        info.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-////     
-////        info.Start();
-////     
-////        //if you want program to halt until script is finished
-////        info.WaitForExit();
-//
-
-
+	    subProcessor("rosbag", "record --lz4 --output-name=tada3.bag /rhag_camera/image_raw/compressed /kinefly/image_output /servo_camera/image_raw/compressed /kinefly/flystate /trajectory");
         header = new StandardHeader();
         rosSocket = new RosSocket("ws://localhost:9090");
         cammy = GetComponent<CameraMan>();

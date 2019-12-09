@@ -6,6 +6,7 @@ public class DisplayScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+/*
         Debug.Log("displays connected: " + Display.displays.Length);
         // Display.displays[0] is the primary, default display and is always ON.
         // Check if additional displays are available and activate each.
@@ -15,14 +16,11 @@ public class DisplayScript : MonoBehaviour
             Display.displays[2].Activate();
         if (Display.displays.Length > 3)
             Display.displays[3].Activate();
-            
+            */
+
 
     }
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKey("escape"))
-            Application.Quit();
-    }
+
 }
 

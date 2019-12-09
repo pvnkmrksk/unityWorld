@@ -119,7 +119,6 @@
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\JointLimitsManager.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\RigidbodyUrdfDataManager.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\UrdfPatcher.cs" />
-    <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\UI Scripts\arrow_size.cs" />
     <Compile Include="Assets\UI Scripts\billboard.cs" />
     <Compile Include="Assets\UI Scripts\freeCam.cs" />
