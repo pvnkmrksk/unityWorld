@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: cb0ea7b41b2e34a239e3783811a4dea7
-timeCreated: 1527920074
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: apple1
     100002: apple2
@@ -49,6 +47,8 @@ ModelImporter:
     2300016: emitter
     2300018: leaves
     2300020: trunk
+    2300022: appleE
+    2300024: branches
     3300000: apple1
     3300002: apple2
     3300004: apple3
@@ -60,6 +60,8 @@ ModelImporter:
     3300016: emitter
     3300018: leaves
     3300020: trunk
+    3300022: appleE
+    3300024: branches
     4300000: apple1
     4300002: apple3
     4300004: apple2
@@ -71,8 +73,11 @@ ModelImporter:
     4300016: appleE_MeshPart0
     4300018: appleE_MeshPart1
     4300020: leaves
+    4300022: branches
+    4300024: appleE
     7400000: Default Take
     9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -92,6 +97,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -106,6 +112,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -116,16 +123,23 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -140,7 +154,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
